@@ -1,0 +1,1553 @@
+{
+	Tools = ordered() {
+		MagicZoomV3 = MacroOperator {
+			CtrlWZoom = false,
+			NameSet = true,
+			CurrentSettings = 3,
+			CustomData = {
+				Settings = {
+					[1] = {
+						Tools = ordered() {
+							MagicZoomV3 = MacroOperator {
+								CtrlWZoom = false,
+								NameSet = true,
+								CustomData = {
+									Path = {
+										Map = {
+											["Setting:"] = "Templates:/MagicZoomV3.drfx/Edit/Effects/MrAlexTech/"
+										}
+									}
+								},
+								Inputs = ordered() {
+									MainInput1 = InstanceInput {
+										SourceOp = "CameraShake1",
+										Source = "Source",
+										Name = "Input",
+									},
+									Input16 = InstanceInput {
+										SourceOp = "Animations",
+										Source = "MRALEXTECH",
+										Page = "Controls",
+									},
+									Input17 = InstanceInput {
+										SourceOp = "Animations",
+										Source = "DONATE",
+										Page = "Controls",
+									},
+									Input4 = InstanceInput {
+										SourceOp = "Transform1",
+										Source = "Type",
+										Name = "Zoom Type",
+										Page = "Controls",
+										Default = 0,
+									},
+									Input1 = InstanceInput {
+										SourceOp = "Transform1",
+										Source = "Pivot",
+									},
+									Input8 = InstanceInput {
+										SourceOp = "AnimSize",
+										Source = "Curve",
+									},
+									Input9 = InstanceInput {
+										SourceOp = "AnimSize",
+										Source = "EaseIn",
+										Width = 0.5,
+									},
+									Input10 = InstanceInput {
+										SourceOp = "AnimSize",
+										Source = "EaseOut",
+										Width = 0.5,
+									},
+									Input11 = InstanceInput {
+										SourceOp = "AnimSize",
+										Source = "Lookup",
+										ControlGroup = 12,
+									},
+									Input12 = InstanceInput {
+										SourceOp = "AnimSize",
+										Source = "Invert",
+										Width = 0.5,
+									},
+									Input13 = InstanceInput {
+										SourceOp = "AnimSize",
+										Source = "Scale",
+										Name = "Zoom Scale",
+										Default = 0.2,
+									},
+									Input14 = InstanceInput {
+										SourceOp = "AnimSize",
+										Source = "Offset",
+										Name = "Zoom Offset",
+										Default = 1,
+									},
+									Input15 = InstanceInput {
+										SourceOp = "Speedo",
+										Source = "NumberIn1",
+										Name = "Zoom Speed",
+										Default = 2,
+									},
+									Input3 = InstanceInput {
+										SourceOp = "Transform1",
+										Source = "Edges",
+										Default = 0,
+									},
+									Input2 = InstanceInput {
+										SourceOp = "Transform1",
+										Source = "Angle",
+										Default = 0,
+									},
+									Input6 = InstanceInput {
+										SourceOp = "Speedo",
+										Source = "MotQuality",
+										Name = "Motion Blur",
+										Page = "Controls",
+									},
+									Input7 = InstanceInput {
+										SourceOp = "Transform1",
+										Source = "ShutterAngle",
+										Default = 180,
+									},
+									Label2 = InstanceInput {
+										SourceOp = "Animations",
+										Source = "Label2",
+										Page = "Controls",
+									},
+									Input18 = InstanceInput {
+										SourceOp = "Speedo",
+										Source = "NumberIn2",
+										Name = "Motion Scale",
+										Default = 0,
+									},
+									Input19 = InstanceInput {
+										SourceOp = "CameraShake1",
+										Source = "SpeedScale",
+										Default = 0,
+									},
+									Input20 = InstanceInput {
+										SourceOp = "CameraShake1",
+										Source = "MotionBlurAmt",
+										Default = 0,
+									},
+									Label3 = InstanceInput {
+										SourceOp = "Animations",
+										Source = "Label3",
+										Page = "Controls",
+									},
+									Input21 = InstanceInput {
+										SourceOp = "CameraShake1",
+										Source = "XAmpl",
+										Default = 0.100000001490116,
+									},
+									Input22 = InstanceInput {
+										SourceOp = "CameraShake1",
+										Source = "YAmpl",
+										Default = 0.300000011920929,
+									},
+									Input23 = InstanceInput {
+										SourceOp = "CameraShake1",
+										Source = "RAmpl",
+										Default = 0.100000001490116,
+									},
+									Input24 = InstanceInput {
+										SourceOp = "CameraShake1",
+										Source = "XYFreq",
+										Default = 0.5,
+									},
+									Input25 = InstanceInput {
+										SourceOp = "CameraShake1",
+										Source = "ZAmpl",
+										Default = 0,
+									},
+									Input26 = InstanceInput {
+										SourceOp = "CameraShake1",
+										Source = "ZFreq",
+										Default = 0,
+									},
+									Input27 = InstanceInput {
+										SourceOp = "CameraShake1",
+										Source = "zoomType",
+									},
+									Label4 = InstanceInput {
+										SourceOp = "Animations",
+										Source = "Label4",
+										Page = "Controls",
+									},
+									Input28 = InstanceInput {
+										SourceOp = "CameraShake1",
+										Source = "motionType",
+									},
+									Input29 = InstanceInput {
+										SourceOp = "CameraShake1",
+										Source = "XYPhase",
+										Default = 0.75,
+									},
+									Input30 = InstanceInput {
+										SourceOp = "CameraShake1",
+										Source = "ShakeRand",
+										Default = 1,
+									},
+									Input31 = InstanceInput {
+										SourceOp = "CameraShake1",
+										Source = "RandSpeed",
+										Default = 0.850000023841858,
+									},
+									Input32 = InstanceInput {
+										SourceOp = "CameraShake1",
+										Source = "ShakePsLen",
+										Default = 0.5,
+									},
+									Input33 = InstanceInput {
+										SourceOp = "CameraShake1",
+										Source = "ShakePsInt",
+										Default = 0,
+									},
+									Input34 = InstanceInput {
+										SourceOp = "CameraShake1",
+										Source = "PauseRand",
+										Default = 0.200000002980232,
+									},
+									Input35 = InstanceInput {
+										SourceOp = "CameraShake1",
+										Source = "RandSeed",
+										Default = 1,
+									},
+									Label5 = InstanceInput {
+										SourceOp = "Animations",
+										Source = "Label5",
+										Page = "Controls",
+									},
+									Input36 = InstanceInput {
+										SourceOp = "CameraShake1",
+										Source = "BorderType",
+									},
+									Input37 = InstanceInput {
+										SourceOp = "CameraShake1",
+										Source = "ZoomCrop",
+										Default = 0,
+									}
+								},
+								Outputs = {
+									MainOutput1 = InstanceOutput {
+										SourceOp = "Transform1",
+										Source = "Output",
+									},
+									MainOutput2 = InstanceOutput {
+										SourceOp = "Speedo",
+										Source = "Output",
+									}
+								},
+								ViewInfo = GroupInfo { Pos = { 218, 50.7121 } },
+								Tools = ordered() {
+									Animations = Transform {
+										CtrlWShown = false,
+										NameSet = true,
+										ViewInfo = OperatorInfo { Pos = { -141, 74.7576 } },
+										UserControls = ordered() {
+											DONATE = {
+												INP_Integer = false,
+												LINKID_DataType = "Number",
+												BTNCS_Execute = "					os.execute('open \"\" \"https://mralextech.net/donate\"')\n					os.execute('start \"\" \"https://mralextech.net/donate\"')\n					",
+												ICS_ControlPage = "Controls",
+												INPID_InputControl = "ButtonControl",
+												LINKS_Name = "DONATE HERE!",
+											},
+											MRALEXTECH = {
+												INP_Integer = false,
+												LINKID_DataType = "Number",
+												BTNCS_Execute = "					os.execute('open \"\" \"https://www.youtube.com/c/mralextech?sub_confirmation=1\"')\n					os.execute('start \"\" \"https://www.youtube.com/c/mralextech?sub_confirmation=1\"')\n					",
+												ICS_ControlPage = "Controls",
+												INPID_InputControl = "ButtonControl",
+												LINKS_Name = "MRALEXTECH YOUTUBE",
+											},
+											Label2 = {
+												ICS_ControlPage = "Controls",
+												INP_Integer = false,
+												LBLC_DropDownButton = true,
+												LINKID_DataType = "Number",
+												LBLC_NumInputs = 22,
+												INP_Passive = true,
+												INPID_InputControl = "LabelControl",
+												LINKS_Name = "Camera Shake",
+											},
+											Label3 = {
+												ICS_ControlPage = "Controls",
+												INP_Integer = false,
+												LBLC_DropDownButton = true,
+												LINKID_DataType = "Number",
+												LBLC_NumInputs = 7,
+												INP_Passive = true,
+												INPID_InputControl = "LabelControl",
+												LINKS_Name = "Shake Levels",
+											},
+											Label4 = {
+												ICS_ControlPage = "Controls",
+												INP_Integer = false,
+												LBLC_DropDownButton = true,
+												LINKID_DataType = "Number",
+												LBLC_NumInputs = 8,
+												INP_Passive = true,
+												INPID_InputControl = "LabelControl",
+												LINKS_Name = "Shake Quality",
+											},
+											Label5 = {
+												ICS_ControlPage = "Controls",
+												INP_Integer = false,
+												LBLC_DropDownButton = true,
+												LINKID_DataType = "Number",
+												LBLC_NumInputs = 3,
+												INP_Passive = true,
+												INPID_InputControl = "LabelControl",
+												LINKS_Name = "Blanking Handling",
+											}
+										}
+									},
+									CameraShake1 = ofx.com.blackmagicdesign.resolvefx.CameraShake {
+										CtrlWShown = false,
+										Inputs = {
+											Source = Input {
+												SourceOp = "MediaIn1",
+												Source = "Output",
+											},
+											MotionScale = Input {
+												SourceOp = "AnimCurves1_1",
+												Source = "Value",
+											},
+											SpeedScale = Input { Value = 0, },
+											MotionBlurAmt = Input { Value = 0, },
+											ShakeLevelsGroup = Input { Value = 1, },
+											XAmpl = Input { Value = 0.100000001490116, },
+											YAmpl = Input { Value = 0.300000011920929, },
+											RAmpl = Input { Value = 0.100000001490116, },
+											XYFreq = Input { Value = 0.5, },
+											ZAmpl = Input { Value = 0, },
+											ZFreq = Input { Value = 0, },
+											zoomType = Input { Value = FuID { "ZOOM_OUTWARD" }, },
+											ShakeQualityGroup = Input { Value = 1, },
+											motionType = Input { Value = FuID { "MOTION_TYPE_SINE" }, },
+											XYPhase = Input { Value = 0.75, },
+											ShakeRand = Input { Value = 1, },
+											RandSpeed = Input { Value = 0.850000023841858, },
+											ShakePsLen = Input { Value = 0.283, },
+											ShakePsInt = Input { Value = 0, },
+											PauseRand = Input { Value = 0.200000002980232, },
+											RandSeed = Input { Value = 1, },
+											BlankingHandlingGroup = Input { Value = 1, },
+											BorderType = Input { Value = FuID { "BORDER_TYPE_REFLECT" }, },
+											ZoomCrop = Input { Value = 0, },
+											blendGroup = Input { Value = 0, },
+											blendIn = Input { Value = 1, },
+											blend = Input { Value = 0, },
+											ignoreContentShape = Input { Value = 0, },
+											legacyIsProcessRGBOnly = Input { Value = 0, },
+											IsNoTemporalFramesReqd = Input { Value = 0, },
+											refreshTrigger = Input { Value = 1, },
+											resolvefxVersion = Input { Value = "1.2", },
+										},
+										ViewInfo = OperatorInfo { Pos = { -12.3337, 8.79928 } },
+									},
+									Speedo = Custom {
+										CtrlWShown = false,
+										NameSet = true,
+										Inputs = {
+											NumberIn1 = Input { Value = 0.7, },
+											LUTIn1 = Input {
+												SourceOp = "SpeedoLUTIn1",
+												Source = "Value",
+											},
+											LUTIn2 = Input {
+												SourceOp = "SpeedoLUTIn2",
+												Source = "Value",
+											},
+											LUTIn3 = Input {
+												SourceOp = "SpeedoLUTIn3",
+												Source = "Value",
+											},
+											LUTIn4 = Input {
+												SourceOp = "SpeedoLUTIn4",
+												Source = "Value",
+											},
+										},
+										ViewInfo = OperatorInfo { Pos = { 45.9996, 74.9318 } },
+										UserControls = ordered() {
+											MotQuality = {
+												INP_MaxAllowed = 20,
+												INP_Integer = true,
+												INPID_InputControl = "SliderControl",
+												INP_MaxScale = 10,
+												INP_Default = 0,
+												INP_MinScale = 0,
+												INP_MinAllowed = 0,
+												LINKID_DataType = "Number",
+												ICS_ControlPage = "Controls",
+												LINKS_Name = "MotQuality"
+											}
+										}
+									},
+									SpeedoLUTIn4 = LUTBezier {
+										KeyColorSplines = {
+											[0] = {
+												[0] = { 0, RH = { 0.333333333333333, 0.333333333333333 }, Flags = { Linear = true } },
+												[1] = { 1, LH = { 0.666666666666667, 0.666666666666667 }, Flags = { Linear = true } }
+											}
+										},
+										SplineColor = { Red = 204, Green = 204, Blue = 204 },
+										CtrlWZoom = false,
+									},
+									SpeedoLUTIn3 = LUTBezier {
+										KeyColorSplines = {
+											[0] = {
+												[0] = { 0, RH = { 0.333333333333333, 0.333333333333333 }, Flags = { Linear = true } },
+												[1] = { 1, LH = { 0.666666666666667, 0.666666666666667 }, Flags = { Linear = true } }
+											}
+										},
+										SplineColor = { Red = 0, Green = 0, Blue = 204 },
+										CtrlWZoom = false,
+									},
+									SpeedoLUTIn2 = LUTBezier {
+										KeyColorSplines = {
+											[0] = {
+												[0] = { 0, RH = { 0.333333333333333, 0.333333333333333 }, Flags = { Linear = true } },
+												[1] = { 1, LH = { 0.666666666666667, 0.666666666666667 }, Flags = { Linear = true } }
+											}
+										},
+										SplineColor = { Red = 0, Green = 204, Blue = 0 },
+										CtrlWZoom = false,
+									},
+									SpeedoLUTIn1 = LUTBezier {
+										KeyColorSplines = {
+											[0] = {
+												[0] = { 0, RH = { 0.333333333333333, 0.333333333333333 }, Flags = { Linear = true } },
+												[1] = { 1, LH = { 0.666666666666667, 0.666666666666667 }, Flags = { Linear = true } }
+											}
+										},
+										SplineColor = { Red = 204, Green = 0, Blue = 0 },
+										CtrlWZoom = false,
+									},
+									Transform1 = Transform {
+										CtrlWShown = false,
+										Inputs = {
+											MotionBlur = Input { Value = 1, },
+											Quality = Input {
+												Value = 0,
+												Expression = "iif(Transform1.Type == 0, Speedo.MotQuality, iif(AnimSize.Input < 1,iif(((time-comp.RenderStart)/(comp:GetPrefs().Comp.FrameFormat.Rate)) > Speedo.NumberIn1, (iif(((comp.RenderEnd-time)/(comp:GetPrefs().Comp.FrameFormat.Rate)) < Speedo.NumberIn1, Speedo.MotQuality,0)), Speedo.MotQuality) ,0))",
+											},
+											Pivot = Input { Value = { 0.5, 0.66 }, },
+											Size = Input {
+												SourceOp = "AnimSize",
+												Source = "Value",
+											},
+											ReferenceSize = Input { Value = 1, },
+											Input = Input {
+												SourceOp = "CameraShake1",
+												Source = "Output",
+											},
+											Type = Input { Value = 1, },
+										},
+										ViewInfo = OperatorInfo { Pos = { 140, 8.58338 } },
+										UserControls = ordered() {
+											Zoom_Hold = {
+												CBC_TriState = false,
+												INP_Integer = false,
+												LINKID_DataType = "Number",
+												ICS_ControlPage = "Controls",
+												INPID_InputControl = "CheckboxControl",
+												LINKS_Name = "Zoom&Hold",
+											},
+											Type = { { CCS_AddString = "Standard" }, { CCS_AddString = "Zoom&Hold" }, { CCS_AddString = "Hold&ZoomOut" }, { CCS_AddString = "Mirror" }, INP_Integer = false, LINKID_DataType = "Number", ICS_ControlPage = "Controls", CC_LabelPosition = "Horizontal", INPID_InputControl = "ComboControl", LINKS_Name = "Type", }
+										}
+									},
+									AnimSize = LUTLookup {
+										CtrlWZoom = false,
+										NameSet = true,
+										Inputs = {
+											Source = Input { Value = FuID { "Custom" }, },
+											Input = Input {
+												Value = 1,
+												Expression = "iif((Transform1.Type == 0), (time-comp.RenderStart)/(comp.RenderEnd-comp.RenderStart), \niif((Transform1.Type == 1), iif(((time-comp.RenderStart)/(comp:GetPrefs().Comp.FrameFormat.Rate)) > (Speedo.NumberIn1/2), 1, ((time-comp.RenderStart)/(comp:GetPrefs().Comp.FrameFormat.Rate)/(Speedo.NumberIn1/2))),\niif((Transform1.Type == 2),(iif(((comp.RenderEnd-time)/(comp:GetPrefs().Comp.FrameFormat.Rate)) < (Speedo.NumberIn1/2), ((comp.RenderEnd-time)/(comp:GetPrefs().Comp.FrameFormat.Rate)/(Speedo.NumberIn1/2)),1)),\niif(((time-comp.RenderStart)/(comp:GetPrefs().Comp.FrameFormat.Rate)) > (Speedo.NumberIn1/2), (iif(((comp.RenderEnd-time)/(comp:GetPrefs().Comp.FrameFormat.Rate)) < (Speedo.NumberIn1/2), ((comp.RenderEnd-time)/(comp:GetPrefs().Comp.FrameFormat.Rate)/(Speedo.NumberIn1/2)),1)), ((time-comp.RenderStart)/(comp:GetPrefs().Comp.FrameFormat.Rate)/(Speedo.NumberIn1/2))))))",
+											},
+											Curve = Input { Value = FuID { "Easing" }, },
+											EaseIn = Input { Value = FuID { "Cubic" }, },
+											EaseOut = Input { Value = FuID { "Cubic" }, },
+											Lookup = Input {
+												SourceOp = "AnimSizeLookup1",
+												Source = "Value",
+											},
+											Scale = Input { Value = 0.3, },
+											Offset = Input { Value = 1, },
+										},
+									},
+									AnimSizeLookup1 = LUTBezier {
+										KeyColorSplines = {
+											[0] = {
+												[0] = { 0, RH = { 0.333333333333333, 0.333333333333333 }, Flags = { Linear = true } },
+												[1] = { 1, LH = { 0.666666666666667, 0.666666666666667 }, Flags = { Linear = true } }
+											}
+										},
+										SplineColor = { Red = 255, Green = 255, Blue = 255 },
+										CtrlWZoom = false,
+										NameSet = true,
+									}
+								},
+							},
+							AnimCurves1_1 = LUTLookup {
+								CtrlWZoom = false,
+								Inputs = {
+									Source = Input { Value = FuID { "Custom" }, },
+									Input = Input {
+										Value = 1,
+										Expression = "iif(((time-comp.RenderStart)/(comp:GetPrefs().Comp.FrameFormat.Rate)/Speedo.NumberIn1) < 1, ((time-comp.RenderStart)/(comp:GetPrefs().Comp.FrameFormat.Rate)/Speedo.NumberIn1),1)",
+									},
+									Curve = Input { Value = FuID { "Easing" }, },
+									EaseIn = Input { Value = FuID { "Quad" }, },
+									EaseOut = Input { Value = FuID { "Quad" }, },
+									Lookup = Input {
+										SourceOp = "AnimCurves1_1Lookup",
+										Source = "Value",
+									},
+									Mirror = Input { Value = 1, },
+									Scale = Input {
+										Value = 0,
+										Expression = "iif(Speedo.NumberIn2==0,0,Speedo.NumberIn2)",
+									},
+								},
+							},
+							AnimCurves1_1Lookup = LUTBezier {
+								KeyColorSplines = {
+									[0] = {
+										[0] = { 0, RH = { 0.333333333333333, 0.333333333333333 }, Flags = { Linear = true } },
+										[1] = { 1, LH = { 0.666666666666667, 0.666666666666667 }, Flags = { Linear = true } }
+									}
+								},
+								SplineColor = { Red = 255, Green = 255, Blue = 255 },
+								CtrlWZoom = false,
+							}
+						}
+					},
+					[2] = {
+						Tools = ordered() {
+							MagicZoomV3 = MacroOperator {
+								CtrlWZoom = false,
+								NameSet = true,
+								CustomData = {
+									Path = {
+										Map = {
+											["Setting:"] = "Templates:/MagicZoomV3.drfx/Edit/Effects/MrAlexTech/"
+										}
+									}
+								},
+								Inputs = ordered() {
+									MainInput1 = InstanceInput {
+										SourceOp = "CameraShake1",
+										Source = "Source",
+										Name = "Input",
+									},
+									Input16 = InstanceInput {
+										SourceOp = "Animations",
+										Source = "MRALEXTECH",
+										Page = "Controls",
+									},
+									Input17 = InstanceInput {
+										SourceOp = "Animations",
+										Source = "DONATE",
+										Page = "Controls",
+									},
+									Input4 = InstanceInput {
+										SourceOp = "Transform1",
+										Source = "Type",
+										Name = "Zoom Type",
+										Page = "Controls",
+										Default = 0,
+									},
+									Input1 = InstanceInput {
+										SourceOp = "Transform1",
+										Source = "Pivot",
+									},
+									Input8 = InstanceInput {
+										SourceOp = "AnimSize",
+										Source = "Curve",
+									},
+									Input9 = InstanceInput {
+										SourceOp = "AnimSize",
+										Source = "EaseIn",
+										Width = 0.5,
+									},
+									Input10 = InstanceInput {
+										SourceOp = "AnimSize",
+										Source = "EaseOut",
+										Width = 0.5,
+									},
+									Input11 = InstanceInput {
+										SourceOp = "AnimSize",
+										Source = "Lookup",
+										ControlGroup = 12,
+									},
+									Input12 = InstanceInput {
+										SourceOp = "AnimSize",
+										Source = "Invert",
+										Width = 0.5,
+									},
+									Input13 = InstanceInput {
+										SourceOp = "AnimSize",
+										Source = "Scale",
+										Name = "Zoom Scale",
+										Default = 0.2,
+									},
+									Input14 = InstanceInput {
+										SourceOp = "AnimSize",
+										Source = "Offset",
+										Name = "Zoom Offset",
+										Default = 1,
+									},
+									Input15 = InstanceInput {
+										SourceOp = "Speedo",
+										Source = "NumberIn1",
+										Name = "Zoom Speed",
+										Default = 2,
+									},
+									Input3 = InstanceInput {
+										SourceOp = "Transform1",
+										Source = "Edges",
+										Default = 0,
+									},
+									Input2 = InstanceInput {
+										SourceOp = "Transform1",
+										Source = "Angle",
+										Default = 0,
+									},
+									Input6 = InstanceInput {
+										SourceOp = "Speedo",
+										Source = "MotQuality",
+										Name = "Motion Blur",
+										Page = "Controls",
+									},
+									Input7 = InstanceInput {
+										SourceOp = "Transform1",
+										Source = "ShutterAngle",
+										Default = 180,
+									},
+									Label2 = InstanceInput {
+										SourceOp = "Animations",
+										Source = "Label2",
+										Page = "Controls",
+									},
+									Input18 = InstanceInput {
+										SourceOp = "Speedo",
+										Source = "NumberIn2",
+										Name = "Motion Scale",
+										Default = 0,
+									},
+									Input19 = InstanceInput {
+										SourceOp = "CameraShake1",
+										Source = "SpeedScale",
+										Default = 0,
+									},
+									Input20 = InstanceInput {
+										SourceOp = "CameraShake1",
+										Source = "MotionBlurAmt",
+										Default = 0,
+									},
+									Label3 = InstanceInput {
+										SourceOp = "Animations",
+										Source = "Label3",
+										Page = "Controls",
+									},
+									Input21 = InstanceInput {
+										SourceOp = "CameraShake1",
+										Source = "XAmpl",
+										Default = 0.100000001490116,
+									},
+									Input22 = InstanceInput {
+										SourceOp = "CameraShake1",
+										Source = "YAmpl",
+										Default = 0.300000011920929,
+									},
+									Input23 = InstanceInput {
+										SourceOp = "CameraShake1",
+										Source = "RAmpl",
+										Default = 0.100000001490116,
+									},
+									Input24 = InstanceInput {
+										SourceOp = "CameraShake1",
+										Source = "XYFreq",
+										Default = 0.5,
+									},
+									Input25 = InstanceInput {
+										SourceOp = "CameraShake1",
+										Source = "ZAmpl",
+										Default = 0,
+									},
+									Input26 = InstanceInput {
+										SourceOp = "CameraShake1",
+										Source = "ZFreq",
+										Default = 0,
+									},
+									Input27 = InstanceInput {
+										SourceOp = "CameraShake1",
+										Source = "zoomType",
+									},
+									Label4 = InstanceInput {
+										SourceOp = "Animations",
+										Source = "Label4",
+										Page = "Controls",
+									},
+									Input28 = InstanceInput {
+										SourceOp = "CameraShake1",
+										Source = "motionType",
+									},
+									Input29 = InstanceInput {
+										SourceOp = "CameraShake1",
+										Source = "XYPhase",
+										Default = 0.75,
+									},
+									Input30 = InstanceInput {
+										SourceOp = "CameraShake1",
+										Source = "ShakeRand",
+										Default = 1,
+									},
+									Input31 = InstanceInput {
+										SourceOp = "CameraShake1",
+										Source = "RandSpeed",
+										Default = 0.850000023841858,
+									},
+									Input32 = InstanceInput {
+										SourceOp = "CameraShake1",
+										Source = "ShakePsLen",
+										Default = 0.5,
+									},
+									Input33 = InstanceInput {
+										SourceOp = "CameraShake1",
+										Source = "ShakePsInt",
+										Default = 0,
+									},
+									Input34 = InstanceInput {
+										SourceOp = "CameraShake1",
+										Source = "PauseRand",
+										Default = 0.200000002980232,
+									},
+									Input35 = InstanceInput {
+										SourceOp = "CameraShake1",
+										Source = "RandSeed",
+										Default = 1,
+									},
+									Label5 = InstanceInput {
+										SourceOp = "Animations",
+										Source = "Label5",
+										Page = "Controls",
+									},
+									Input36 = InstanceInput {
+										SourceOp = "CameraShake1",
+										Source = "BorderType",
+									},
+									Input37 = InstanceInput {
+										SourceOp = "CameraShake1",
+										Source = "ZoomCrop",
+										Default = 0,
+									}
+								},
+								Outputs = {
+									MainOutput1 = InstanceOutput {
+										SourceOp = "Transform1",
+										Source = "Output",
+									},
+									MainOutput2 = InstanceOutput {
+										SourceOp = "Speedo",
+										Source = "Output",
+									}
+								},
+								ViewInfo = GroupInfo { Pos = { 218, 50.7121 } },
+								Tools = ordered() {
+									Animations = Transform {
+										CtrlWShown = false,
+										NameSet = true,
+										ViewInfo = OperatorInfo { Pos = { -141, 74.7576 } },
+										UserControls = ordered() {
+											DONATE = {
+												INP_Integer = false,
+												LINKID_DataType = "Number",
+												BTNCS_Execute = "					os.execute('open \"\" \"https://mralextech.net/donate\"')\n					os.execute('start \"\" \"https://mralextech.net/donate\"')\n					",
+												ICS_ControlPage = "Controls",
+												INPID_InputControl = "ButtonControl",
+												LINKS_Name = "DONATE HERE!",
+											},
+											MRALEXTECH = {
+												INP_Integer = false,
+												LINKID_DataType = "Number",
+												BTNCS_Execute = "					os.execute('open \"\" \"https://www.youtube.com/c/mralextech?sub_confirmation=1\"')\n					os.execute('start \"\" \"https://www.youtube.com/c/mralextech?sub_confirmation=1\"')\n					",
+												ICS_ControlPage = "Controls",
+												INPID_InputControl = "ButtonControl",
+												LINKS_Name = "MRALEXTECH YOUTUBE",
+											},
+											Label2 = {
+												ICS_ControlPage = "Controls",
+												INP_Integer = false,
+												LBLC_DropDownButton = true,
+												LINKID_DataType = "Number",
+												LBLC_NumInputs = 22,
+												INP_Passive = true,
+												INPID_InputControl = "LabelControl",
+												LINKS_Name = "Camera Shake",
+											},
+											Label3 = {
+												ICS_ControlPage = "Controls",
+												INP_Integer = false,
+												LBLC_DropDownButton = true,
+												LINKID_DataType = "Number",
+												LBLC_NumInputs = 7,
+												INP_Passive = true,
+												INPID_InputControl = "LabelControl",
+												LINKS_Name = "Shake Levels",
+											},
+											Label4 = {
+												ICS_ControlPage = "Controls",
+												INP_Integer = false,
+												LBLC_DropDownButton = true,
+												LINKID_DataType = "Number",
+												LBLC_NumInputs = 8,
+												INP_Passive = true,
+												INPID_InputControl = "LabelControl",
+												LINKS_Name = "Shake Quality",
+											},
+											Label5 = {
+												ICS_ControlPage = "Controls",
+												INP_Integer = false,
+												LBLC_DropDownButton = true,
+												LINKID_DataType = "Number",
+												LBLC_NumInputs = 3,
+												INP_Passive = true,
+												INPID_InputControl = "LabelControl",
+												LINKS_Name = "Blanking Handling",
+											}
+										}
+									},
+									CameraShake1 = ofx.com.blackmagicdesign.resolvefx.CameraShake {
+										CtrlWShown = false,
+										Inputs = {
+											Source = Input {
+												SourceOp = "MediaIn1",
+												Source = "Output",
+											},
+											MotionScale = Input {
+												SourceOp = "AnimCurves1_1",
+												Source = "Value",
+											},
+											SpeedScale = Input { Value = 0, },
+											MotionBlurAmt = Input { Value = 0, },
+											ShakeLevelsGroup = Input { Value = 1, },
+											XAmpl = Input { Value = 0.100000001490116, },
+											YAmpl = Input { Value = 0.300000011920929, },
+											RAmpl = Input { Value = 0.100000001490116, },
+											XYFreq = Input { Value = 0.5, },
+											ZAmpl = Input { Value = 0, },
+											ZFreq = Input { Value = 0, },
+											zoomType = Input { Value = FuID { "ZOOM_OUTWARD" }, },
+											ShakeQualityGroup = Input { Value = 1, },
+											motionType = Input { Value = FuID { "MOTION_TYPE_SINE" }, },
+											XYPhase = Input { Value = 0.75, },
+											ShakeRand = Input { Value = 1, },
+											RandSpeed = Input { Value = 0.850000023841858, },
+											ShakePsLen = Input { Value = 0.283, },
+											ShakePsInt = Input { Value = 0, },
+											PauseRand = Input { Value = 0.200000002980232, },
+											RandSeed = Input { Value = 1, },
+											BlankingHandlingGroup = Input { Value = 1, },
+											BorderType = Input { Value = FuID { "BORDER_TYPE_REFLECT" }, },
+											ZoomCrop = Input { Value = 0, },
+											blendGroup = Input { Value = 0, },
+											blendIn = Input { Value = 1, },
+											blend = Input { Value = 0, },
+											ignoreContentShape = Input { Value = 0, },
+											legacyIsProcessRGBOnly = Input { Value = 0, },
+											IsNoTemporalFramesReqd = Input { Value = 0, },
+											refreshTrigger = Input { Value = 1, },
+											resolvefxVersion = Input { Value = "1.2", },
+										},
+										ViewInfo = OperatorInfo { Pos = { -12.3337, 8.79928 } },
+									},
+									Speedo = Custom {
+										CtrlWShown = false,
+										NameSet = true,
+										Inputs = {
+											NumberIn1 = Input { Value = 0.7, },
+											LUTIn1 = Input {
+												SourceOp = "SpeedoLUTIn1",
+												Source = "Value",
+											},
+											LUTIn2 = Input {
+												SourceOp = "SpeedoLUTIn2",
+												Source = "Value",
+											},
+											LUTIn3 = Input {
+												SourceOp = "SpeedoLUTIn3",
+												Source = "Value",
+											},
+											LUTIn4 = Input {
+												SourceOp = "SpeedoLUTIn4",
+												Source = "Value",
+											},
+										},
+										ViewInfo = OperatorInfo { Pos = { 45.9996, 74.9318 } },
+										UserControls = ordered() {
+											MotQuality = {
+												INP_MaxAllowed = 20,
+												INP_Integer = true,
+												INPID_InputControl = "SliderControl",
+												INP_MaxScale = 10,
+												INP_Default = 0,
+												INP_MinScale = 0,
+												INP_MinAllowed = 0,
+												LINKID_DataType = "Number",
+												ICS_ControlPage = "Controls",
+												LINKS_Name = "MotQuality"
+											}
+										}
+									},
+									SpeedoLUTIn4 = LUTBezier {
+										KeyColorSplines = {
+											[0] = {
+												[0] = { 0, RH = { 0.333333333333333, 0.333333333333333 }, Flags = { Linear = true } },
+												[1] = { 1, LH = { 0.666666666666667, 0.666666666666667 }, Flags = { Linear = true } }
+											}
+										},
+										SplineColor = { Red = 204, Green = 204, Blue = 204 },
+										CtrlWZoom = false,
+									},
+									SpeedoLUTIn3 = LUTBezier {
+										KeyColorSplines = {
+											[0] = {
+												[0] = { 0, RH = { 0.333333333333333, 0.333333333333333 }, Flags = { Linear = true } },
+												[1] = { 1, LH = { 0.666666666666667, 0.666666666666667 }, Flags = { Linear = true } }
+											}
+										},
+										SplineColor = { Red = 0, Green = 0, Blue = 204 },
+										CtrlWZoom = false,
+									},
+									SpeedoLUTIn2 = LUTBezier {
+										KeyColorSplines = {
+											[0] = {
+												[0] = { 0, RH = { 0.333333333333333, 0.333333333333333 }, Flags = { Linear = true } },
+												[1] = { 1, LH = { 0.666666666666667, 0.666666666666667 }, Flags = { Linear = true } }
+											}
+										},
+										SplineColor = { Red = 0, Green = 204, Blue = 0 },
+										CtrlWZoom = false,
+									},
+									SpeedoLUTIn1 = LUTBezier {
+										KeyColorSplines = {
+											[0] = {
+												[0] = { 0, RH = { 0.333333333333333, 0.333333333333333 }, Flags = { Linear = true } },
+												[1] = { 1, LH = { 0.666666666666667, 0.666666666666667 }, Flags = { Linear = true } }
+											}
+										},
+										SplineColor = { Red = 204, Green = 0, Blue = 0 },
+										CtrlWZoom = false,
+									},
+									Transform1 = Transform {
+										CtrlWShown = false,
+										Inputs = {
+											MotionBlur = Input { Value = 1, },
+											Quality = Input {
+												Value = 0,
+												Expression = "iif(Transform1.Type == 0, Speedo.MotQuality, iif(AnimSize.Input < 1,iif(((time-comp.RenderStart)/(comp:GetPrefs().Comp.FrameFormat.Rate)) > Speedo.NumberIn1, (iif(((comp.RenderEnd-time)/(comp:GetPrefs().Comp.FrameFormat.Rate)) < Speedo.NumberIn1, Speedo.MotQuality,0)), Speedo.MotQuality) ,0))",
+											},
+											Pivot = Input { Value = { 0.5, 0.66 }, },
+											Size = Input {
+												SourceOp = "AnimSize",
+												Source = "Value",
+											},
+											ReferenceSize = Input { Value = 1, },
+											Input = Input {
+												SourceOp = "CameraShake1",
+												Source = "Output",
+											},
+											Type = Input { Value = 1, },
+										},
+										ViewInfo = OperatorInfo { Pos = { 140, 8.58338 } },
+										UserControls = ordered() {
+											Zoom_Hold = {
+												CBC_TriState = false,
+												INP_Integer = false,
+												LINKID_DataType = "Number",
+												ICS_ControlPage = "Controls",
+												INPID_InputControl = "CheckboxControl",
+												LINKS_Name = "Zoom&Hold",
+											},
+											Type = { { CCS_AddString = "Standard" }, { CCS_AddString = "Zoom&Hold" }, { CCS_AddString = "Hold&ZoomOut" }, { CCS_AddString = "Mirror" }, INP_Integer = false, LINKID_DataType = "Number", ICS_ControlPage = "Controls", CC_LabelPosition = "Horizontal", INPID_InputControl = "ComboControl", LINKS_Name = "Type", }
+										}
+									},
+									AnimSize = LUTLookup {
+										CtrlWZoom = false,
+										NameSet = true,
+										Inputs = {
+											Source = Input { Value = FuID { "Custom" }, },
+											Input = Input {
+												Value = 1,
+												Expression = "iif((Transform1.Type == 0), (time-comp.RenderStart)/(comp.RenderEnd-comp.RenderStart), \niif((Transform1.Type == 1), iif(((time-comp.RenderStart)/(comp:GetPrefs().Comp.FrameFormat.Rate)) > (Speedo.NumberIn1/2), 1, ((time-comp.RenderStart)/(comp:GetPrefs().Comp.FrameFormat.Rate)/(Speedo.NumberIn1/2))),\niif((Transform1.Type == 2),(iif(((comp.RenderEnd-time)/(comp:GetPrefs().Comp.FrameFormat.Rate)) < (Speedo.NumberIn1/2), ((comp.RenderEnd-time)/(comp:GetPrefs().Comp.FrameFormat.Rate)/(Speedo.NumberIn1/2)),1)),\niif(((time-comp.RenderStart)/(comp:GetPrefs().Comp.FrameFormat.Rate)) > (Speedo.NumberIn1/2), (iif(((comp.RenderEnd-time)/(comp:GetPrefs().Comp.FrameFormat.Rate)) < (Speedo.NumberIn1/2), ((comp.RenderEnd-time)/(comp:GetPrefs().Comp.FrameFormat.Rate)/(Speedo.NumberIn1/2)),1)), ((time-comp.RenderStart)/(comp:GetPrefs().Comp.FrameFormat.Rate)/(Speedo.NumberIn1/2))))))",
+											},
+											Curve = Input { Value = FuID { "Easing" }, },
+											EaseIn = Input { Value = FuID { "Cubic" }, },
+											EaseOut = Input { Value = FuID { "Cubic" }, },
+											Lookup = Input {
+												SourceOp = "AnimSize_2Lookup",
+												Source = "Value",
+											},
+											Scale = Input { Value = 0.2, },
+											Offset = Input { Value = 1, },
+										},
+									},
+									AnimSize_2Lookup = LUTBezier {
+										KeyColorSplines = {
+											[0] = {
+												[0] = { 0, RH = { 0.333333333333333, 0.333333333333333 }, Flags = { Linear = true } },
+												[1] = { 1, LH = { 0.666666666666667, 0.666666666666667 }, Flags = { Linear = true } }
+											}
+										},
+										SplineColor = { Red = 255, Green = 255, Blue = 255 },
+										CtrlWZoom = false,
+										NameSet = true,
+									}
+								},
+							},
+							AnimCurves1_1 = LUTLookup {
+								CtrlWZoom = false,
+								Inputs = {
+									Source = Input { Value = FuID { "Custom" }, },
+									Input = Input {
+										Value = 1,
+										Expression = "iif(((time-comp.RenderStart)/(comp:GetPrefs().Comp.FrameFormat.Rate)/Speedo.NumberIn1) < 1, ((time-comp.RenderStart)/(comp:GetPrefs().Comp.FrameFormat.Rate)/Speedo.NumberIn1),1)",
+									},
+									Curve = Input { Value = FuID { "Easing" }, },
+									EaseIn = Input { Value = FuID { "Quad" }, },
+									EaseOut = Input { Value = FuID { "Quad" }, },
+									Lookup = Input {
+										SourceOp = "AnimCurves1_1Lookup",
+										Source = "Value",
+									},
+									Mirror = Input { Value = 1, },
+									Scale = Input {
+										Value = 0,
+										Expression = "iif(Speedo.NumberIn2==0,0,Speedo.NumberIn2)",
+									},
+								},
+							},
+							AnimCurves1_1Lookup = LUTBezier {
+								KeyColorSplines = {
+									[0] = {
+										[0] = { 0, RH = { 0.333333333333333, 0.333333333333333 }, Flags = { Linear = true } },
+										[1] = { 1, LH = { 0.666666666666667, 0.666666666666667 }, Flags = { Linear = true } }
+									}
+								},
+								SplineColor = { Red = 255, Green = 255, Blue = 255 },
+								CtrlWZoom = false,
+							}
+						}
+					},
+				},
+				Path = {
+					Map = {
+						["Setting:"] = "Templates:/MagicZoomV3.drfx/Edit/Effects/MrAlexTech/"
+					}
+				}
+			},
+			Inputs = ordered() {
+				MainInput1 = InstanceInput {
+					SourceOp = "CameraShake1",
+					Source = "Source",
+					Name = "Input",
+				},
+				Input16 = InstanceInput {
+					SourceOp = "Animations",
+					Source = "MRALEXTECH",
+					Page = "Controls",
+				},
+				Input17 = InstanceInput {
+					SourceOp = "Animations",
+					Source = "DONATE",
+					Page = "Controls",
+				},
+				Input4 = InstanceInput {
+					SourceOp = "Transform1",
+					Source = "Type",
+					Name = "Zoom Type",
+					Page = "Controls",
+					Default = 0,
+				},
+				Input1 = InstanceInput {
+					SourceOp = "Transform1",
+					Source = "Pivot",
+				},
+				Input8 = InstanceInput {
+					SourceOp = "AnimSize",
+					Source = "Curve",
+				},
+				Input9 = InstanceInput {
+					SourceOp = "AnimSize",
+					Source = "EaseIn",
+					Width = 0.5,
+				},
+				Input10 = InstanceInput {
+					SourceOp = "AnimSize",
+					Source = "EaseOut",
+					Width = 0.5,
+				},
+				Input11 = InstanceInput {
+					SourceOp = "AnimSize",
+					Source = "Lookup",
+					ControlGroup = 12,
+				},
+				Input12 = InstanceInput {
+					SourceOp = "AnimSize",
+					Source = "Invert",
+					Width = 0.5,
+				},
+				Input13 = InstanceInput {
+					SourceOp = "AnimSize",
+					Source = "Scale",
+					Name = "Zoom Scale",
+					Default = 0.2,
+				},
+				Input14 = InstanceInput {
+					SourceOp = "AnimSize",
+					Source = "Offset",
+					Name = "Zoom Offset",
+					Default = 1,
+				},
+				Input15 = InstanceInput {
+					SourceOp = "Speedo",
+					Source = "NumberIn1",
+					Name = "Zoom Speed",
+					Default = 2,
+				},
+				Input3 = InstanceInput {
+					SourceOp = "Transform1",
+					Source = "Edges",
+					Default = 0,
+				},
+				Input2 = InstanceInput {
+					SourceOp = "Transform1",
+					Source = "Angle",
+					Default = 0,
+				},
+				Input6 = InstanceInput {
+					SourceOp = "Speedo",
+					Source = "MotQuality",
+					Name = "Motion Blur",
+					Page = "Controls",
+				},
+				Input7 = InstanceInput {
+					SourceOp = "Transform1",
+					Source = "ShutterAngle",
+					Default = 180,
+				},
+				Label2 = InstanceInput {
+					SourceOp = "Animations",
+					Source = "Label2",
+					Page = "Controls",
+				},
+				Input18 = InstanceInput {
+					SourceOp = "Speedo",
+					Source = "NumberIn2",
+					Name = "Motion Scale",
+					Default = 0,
+				},
+				Input19 = InstanceInput {
+					SourceOp = "CameraShake1",
+					Source = "SpeedScale",
+					Default = 0,
+				},
+				Input20 = InstanceInput {
+					SourceOp = "CameraShake1",
+					Source = "MotionBlurAmt",
+					Default = 0,
+				},
+				Label3 = InstanceInput {
+					SourceOp = "Animations",
+					Source = "Label3",
+					Page = "Controls",
+				},
+				Input21 = InstanceInput {
+					SourceOp = "CameraShake1",
+					Source = "XAmpl",
+					Default = 0.100000001490116,
+				},
+				Input22 = InstanceInput {
+					SourceOp = "CameraShake1",
+					Source = "YAmpl",
+					Default = 0.300000011920929,
+				},
+				Input23 = InstanceInput {
+					SourceOp = "CameraShake1",
+					Source = "RAmpl",
+					Default = 0.100000001490116,
+				},
+				Input24 = InstanceInput {
+					SourceOp = "CameraShake1",
+					Source = "XYFreq",
+					Default = 0.5,
+				},
+				Input25 = InstanceInput {
+					SourceOp = "CameraShake1",
+					Source = "ZAmpl",
+					Default = 0,
+				},
+				Input26 = InstanceInput {
+					SourceOp = "CameraShake1",
+					Source = "ZFreq",
+					Default = 0,
+				},
+				Input27 = InstanceInput {
+					SourceOp = "CameraShake1",
+					Source = "zoomType",
+				},
+				Label4 = InstanceInput {
+					SourceOp = "Animations",
+					Source = "Label4",
+					Page = "Controls",
+				},
+				Input28 = InstanceInput {
+					SourceOp = "CameraShake1",
+					Source = "motionType",
+				},
+				Input29 = InstanceInput {
+					SourceOp = "CameraShake1",
+					Source = "XYPhase",
+					Default = 0.75,
+				},
+				Input30 = InstanceInput {
+					SourceOp = "CameraShake1",
+					Source = "ShakeRand",
+					Default = 1,
+				},
+				Input31 = InstanceInput {
+					SourceOp = "CameraShake1",
+					Source = "RandSpeed",
+					Default = 0.850000023841858,
+				},
+				Input32 = InstanceInput {
+					SourceOp = "CameraShake1",
+					Source = "ShakePsLen",
+					Default = 0.5,
+				},
+				Input33 = InstanceInput {
+					SourceOp = "CameraShake1",
+					Source = "ShakePsInt",
+					Default = 0,
+				},
+				Input34 = InstanceInput {
+					SourceOp = "CameraShake1",
+					Source = "PauseRand",
+					Default = 0.200000002980232,
+				},
+				Input35 = InstanceInput {
+					SourceOp = "CameraShake1",
+					Source = "RandSeed",
+					Default = 1,
+				},
+				Label5 = InstanceInput {
+					SourceOp = "Animations",
+					Source = "Label5",
+					Page = "Controls",
+				},
+				Input36 = InstanceInput {
+					SourceOp = "CameraShake1",
+					Source = "BorderType",
+				},
+				Input37 = InstanceInput {
+					SourceOp = "CameraShake1",
+					Source = "ZoomCrop",
+					Default = 0,
+				}
+			},
+			Outputs = {
+				MainOutput1 = InstanceOutput {
+					SourceOp = "Transform1",
+					Source = "Output",
+				},
+				MainOutput2 = InstanceOutput {
+					SourceOp = "Speedo",
+					Source = "Output",
+				}
+			},
+			ViewInfo = GroupInfo { Pos = { 218, 50.7121 } },
+			Tools = ordered() {
+				Animations = Transform {
+					CtrlWShown = false,
+					NameSet = true,
+					ViewInfo = OperatorInfo { Pos = { -141, 74.7576 } },
+					UserControls = ordered() {
+						DONATE = {
+							INP_Integer = false,
+							LINKID_DataType = "Number",
+							BTNCS_Execute = "					os.execute('open \"\" \"https://mralextech.net/donate\"')\n					os.execute('start \"\" \"https://mralextech.net/donate\"')\n					",
+							ICS_ControlPage = "Controls",
+							INPID_InputControl = "ButtonControl",
+							LINKS_Name = "DONATE HERE!",
+						},
+						MRALEXTECH = {
+							INP_Integer = false,
+							LINKID_DataType = "Number",
+							BTNCS_Execute = "					os.execute('open \"\" \"https://www.youtube.com/c/mralextech?sub_confirmation=1\"')\n					os.execute('start \"\" \"https://www.youtube.com/c/mralextech?sub_confirmation=1\"')\n					",
+							ICS_ControlPage = "Controls",
+							INPID_InputControl = "ButtonControl",
+							LINKS_Name = "MRALEXTECH YOUTUBE",
+						},
+						Label2 = {
+							ICS_ControlPage = "Controls",
+							INP_Integer = false,
+							LBLC_DropDownButton = true,
+							LINKID_DataType = "Number",
+							LBLC_NumInputs = 22,
+							INP_Passive = true,
+							INPID_InputControl = "LabelControl",
+							LINKS_Name = "Camera Shake",
+						},
+						Label3 = {
+							ICS_ControlPage = "Controls",
+							INP_Integer = false,
+							LBLC_DropDownButton = true,
+							LINKID_DataType = "Number",
+							LBLC_NumInputs = 7,
+							INP_Passive = true,
+							INPID_InputControl = "LabelControl",
+							LINKS_Name = "Shake Levels",
+						},
+						Label4 = {
+							ICS_ControlPage = "Controls",
+							INP_Integer = false,
+							LBLC_DropDownButton = true,
+							LINKID_DataType = "Number",
+							LBLC_NumInputs = 8,
+							INP_Passive = true,
+							INPID_InputControl = "LabelControl",
+							LINKS_Name = "Shake Quality",
+						},
+						Label5 = {
+							ICS_ControlPage = "Controls",
+							INP_Integer = false,
+							LBLC_DropDownButton = true,
+							LINKID_DataType = "Number",
+							LBLC_NumInputs = 3,
+							INP_Passive = true,
+							INPID_InputControl = "LabelControl",
+							LINKS_Name = "Blanking Handling",
+						}
+					}
+				},
+				CameraShake1 = ofx.com.blackmagicdesign.resolvefx.CameraShake {
+					CtrlWShown = false,
+					Inputs = {
+						Source = Input {
+							SourceOp = "MediaIn1",
+							Source = "Output",
+						},
+						MotionScale = Input {
+							SourceOp = "AnimCurves1_1",
+							Source = "Value",
+						},
+						SpeedScale = Input { Value = 0, },
+						MotionBlurAmt = Input { Value = 0, },
+						ShakeLevelsGroup = Input { Value = 1, },
+						XAmpl = Input { Value = 0.100000001490116, },
+						YAmpl = Input { Value = 0.300000011920929, },
+						RAmpl = Input { Value = 0.100000001490116, },
+						XYFreq = Input { Value = 0.5, },
+						ZAmpl = Input { Value = 0, },
+						ZFreq = Input { Value = 0, },
+						zoomType = Input { Value = FuID { "ZOOM_OUTWARD" }, },
+						ShakeQualityGroup = Input { Value = 1, },
+						motionType = Input { Value = FuID { "MOTION_TYPE_SINE" }, },
+						XYPhase = Input { Value = 0.75, },
+						ShakeRand = Input { Value = 1, },
+						RandSpeed = Input { Value = 0.850000023841858, },
+						ShakePsLen = Input { Value = 0.283, },
+						ShakePsInt = Input { Value = 0, },
+						PauseRand = Input { Value = 0.200000002980232, },
+						RandSeed = Input { Value = 1, },
+						BlankingHandlingGroup = Input { Value = 1, },
+						BorderType = Input { Value = FuID { "BORDER_TYPE_REFLECT" }, },
+						ZoomCrop = Input { Value = 0, },
+						blendGroup = Input { Value = 0, },
+						blendIn = Input { Value = 1, },
+						blend = Input { Value = 0, },
+						ignoreContentShape = Input { Value = 0, },
+						legacyIsProcessRGBOnly = Input { Value = 0, },
+						IsNoTemporalFramesReqd = Input { Value = 0, },
+						refreshTrigger = Input { Value = 1, },
+						resolvefxVersion = Input { Value = "1.2", },
+					},
+					ViewInfo = OperatorInfo { Pos = { -12.3337, 8.79928 } },
+				},
+				Speedo = Custom {
+					CtrlWShown = false,
+					NameSet = true,
+					Inputs = {
+						NumberIn1 = Input { Value = 2, },
+						LUTIn1 = Input {
+							SourceOp = "SpeedoLUTIn1",
+							Source = "Value",
+						},
+						LUTIn2 = Input {
+							SourceOp = "SpeedoLUTIn2",
+							Source = "Value",
+						},
+						LUTIn3 = Input {
+							SourceOp = "SpeedoLUTIn3",
+							Source = "Value",
+						},
+						LUTIn4 = Input {
+							SourceOp = "SpeedoLUTIn4",
+							Source = "Value",
+						},
+					},
+					ViewInfo = OperatorInfo { Pos = { 45.9996, 74.9318 } },
+					UserControls = ordered() {
+						MotQuality = {
+							INP_MaxAllowed = 20,
+							INP_Integer = true,
+							INPID_InputControl = "SliderControl",
+							INP_MaxScale = 10,
+							INP_Default = 0,
+							INP_MinScale = 0,
+							INP_MinAllowed = 0,
+							LINKID_DataType = "Number",
+							ICS_ControlPage = "Controls",
+							LINKS_Name = "MotQuality"
+						}
+					}
+				},
+				SpeedoLUTIn4 = LUTBezier {
+					KeyColorSplines = {
+						[0] = {
+							[0] = { 0, RH = { 0.333333333333333, 0.333333333333333 }, Flags = { Linear = true } },
+							[1] = { 1, LH = { 0.666666666666667, 0.666666666666667 }, Flags = { Linear = true } }
+						}
+					},
+					SplineColor = { Red = 204, Green = 204, Blue = 204 },
+					CtrlWZoom = false,
+				},
+				SpeedoLUTIn3 = LUTBezier {
+					KeyColorSplines = {
+						[0] = {
+							[0] = { 0, RH = { 0.333333333333333, 0.333333333333333 }, Flags = { Linear = true } },
+							[1] = { 1, LH = { 0.666666666666667, 0.666666666666667 }, Flags = { Linear = true } }
+						}
+					},
+					SplineColor = { Red = 0, Green = 0, Blue = 204 },
+					CtrlWZoom = false,
+				},
+				SpeedoLUTIn2 = LUTBezier {
+					KeyColorSplines = {
+						[0] = {
+							[0] = { 0, RH = { 0.333333333333333, 0.333333333333333 }, Flags = { Linear = true } },
+							[1] = { 1, LH = { 0.666666666666667, 0.666666666666667 }, Flags = { Linear = true } }
+						}
+					},
+					SplineColor = { Red = 0, Green = 204, Blue = 0 },
+					CtrlWZoom = false,
+				},
+				SpeedoLUTIn1 = LUTBezier {
+					KeyColorSplines = {
+						[0] = {
+							[0] = { 0, RH = { 0.333333333333333, 0.333333333333333 }, Flags = { Linear = true } },
+							[1] = { 1, LH = { 0.666666666666667, 0.666666666666667 }, Flags = { Linear = true } }
+						}
+					},
+					SplineColor = { Red = 204, Green = 0, Blue = 0 },
+					CtrlWZoom = false,
+				},
+				Transform1 = Transform {
+					CtrlWShown = false,
+					Inputs = {
+						MotionBlur = Input { Value = 1, },
+						Quality = Input {
+							Value = 0,
+							Expression = "iif(Transform1.Type == 0, Speedo.MotQuality, iif(AnimSize.Input < 1,iif(((time-comp.RenderStart)/(comp:GetPrefs().Comp.FrameFormat.Rate)) > Speedo.NumberIn1, (iif(((comp.RenderEnd-time)/(comp:GetPrefs().Comp.FrameFormat.Rate)) < Speedo.NumberIn1, Speedo.MotQuality,0)), Speedo.MotQuality) ,0))",
+						},
+						Pivot = Input { Value = { 0.5, 0.66 }, },
+						Size = Input {
+							SourceOp = "AnimSize",
+							Source = "Value",
+						},
+						ReferenceSize = Input { Value = 1, },
+						Input = Input {
+							SourceOp = "CameraShake1",
+							Source = "Output",
+						},
+					},
+					ViewInfo = OperatorInfo { Pos = { 140, 8.58338 } },
+					UserControls = ordered() {
+						Zoom_Hold = {
+							CBC_TriState = false,
+							INP_Integer = false,
+							LINKID_DataType = "Number",
+							ICS_ControlPage = "Controls",
+							INPID_InputControl = "CheckboxControl",
+							LINKS_Name = "Zoom&Hold",
+						},
+						Type = { { CCS_AddString = "Standard" }, { CCS_AddString = "Zoom&Hold" }, { CCS_AddString = "Hold&ZoomOut" }, { CCS_AddString = "Mirror" }, INP_Integer = false, LINKID_DataType = "Number", ICS_ControlPage = "Controls", CC_LabelPosition = "Horizontal", INPID_InputControl = "ComboControl", LINKS_Name = "Type", }
+					}
+				},
+				AnimSize = LUTLookup {
+					CtrlWZoom = false,
+					NameSet = true,
+					Inputs = {
+						Source = Input { Value = FuID { "Custom" }, },
+						Input = Input {
+							Value = 0.0851063829787234,
+							Expression = "iif((Transform1.Type == 0), (time-comp.RenderStart)/(comp.RenderEnd-comp.RenderStart), \niif((Transform1.Type == 1), iif(((time-comp.RenderStart)/(comp:GetPrefs().Comp.FrameFormat.Rate)) > (Speedo.NumberIn1/2), 1, ((time-comp.RenderStart)/(comp:GetPrefs().Comp.FrameFormat.Rate)/(Speedo.NumberIn1/2))),\niif((Transform1.Type == 2),(iif(((comp.RenderEnd-time)/(comp:GetPrefs().Comp.FrameFormat.Rate)) < (Speedo.NumberIn1/2), ((comp.RenderEnd-time)/(comp:GetPrefs().Comp.FrameFormat.Rate)/(Speedo.NumberIn1/2)),1)),\niif(((time-comp.RenderStart)/(comp:GetPrefs().Comp.FrameFormat.Rate)) > (Speedo.NumberIn1/2), (iif(((comp.RenderEnd-time)/(comp:GetPrefs().Comp.FrameFormat.Rate)) < (Speedo.NumberIn1/2), ((comp.RenderEnd-time)/(comp:GetPrefs().Comp.FrameFormat.Rate)/(Speedo.NumberIn1/2)),1)), ((time-comp.RenderStart)/(comp:GetPrefs().Comp.FrameFormat.Rate)/(Speedo.NumberIn1/2))))))",
+						},
+						Lookup = Input {
+							SourceOp = "AnimSize_1Lookup",
+							Source = "Value",
+						},
+						Scale = Input { Value = 0.15, },
+						Offset = Input { Value = 1, },
+					},
+				},
+				AnimSize_1Lookup = LUTBezier {
+					KeyColorSplines = {
+						[0] = {
+							[0] = { 0, RH = { 0.333333333333333, 0.333333333333333 }, Flags = { Linear = true } },
+							[1] = { 1, LH = { 0.666666666666667, 0.666666666666667 }, Flags = { Linear = true } }
+						}
+					},
+					SplineColor = { Red = 255, Green = 255, Blue = 255 },
+					CtrlWZoom = false,
+					NameSet = true,
+				}
+			},
+		},
+		AnimCurves1_1 = LUTLookup {
+			CtrlWZoom = false,
+			Inputs = {
+				Source = Input { Value = FuID { "Custom" }, },
+				Input = Input {
+					Value = 1,
+					Expression = "iif(((time-comp.RenderStart)/(comp:GetPrefs().Comp.FrameFormat.Rate)/Speedo.NumberIn1) < 1, ((time-comp.RenderStart)/(comp:GetPrefs().Comp.FrameFormat.Rate)/Speedo.NumberIn1),1)",
+				},
+				Curve = Input { Value = FuID { "Easing" }, },
+				EaseIn = Input { Value = FuID { "Quad" }, },
+				EaseOut = Input { Value = FuID { "Quad" }, },
+				Lookup = Input {
+					SourceOp = "AnimCurves1_1Lookup",
+					Source = "Value",
+				},
+				Mirror = Input { Value = 1, },
+				Scale = Input {
+					Value = 0,
+					Expression = "iif(Speedo.NumberIn2==0,0,Speedo.NumberIn2)",
+				},
+			},
+		},
+		AnimCurves1_1Lookup = LUTBezier {
+			KeyColorSplines = {
+				[0] = {
+					[0] = { 0, RH = { 0.333333333333333, 0.333333333333333 }, Flags = { Linear = true } },
+					[1] = { 1, LH = { 0.666666666666667, 0.666666666666667 }, Flags = { Linear = true } }
+				}
+			},
+			SplineColor = { Red = 255, Green = 255, Blue = 255 },
+			CtrlWZoom = false,
+		}
+	}
+}

@@ -1,0 +1,146 @@
+{
+	Tools = ordered() {
+		Template = TextPlus {
+			CtrlWZoom = false,
+			CustomData = {
+				Settings = {
+					[2] = {
+						Tools = ordered() {
+							Template = TextPlus {
+								CtrlWZoom = false,
+								CustomData = {
+								},
+								Inputs = {
+									GlobalOut = Input { Value = 43, },
+									Width = Input { Value = 1920, },
+									Height = Input { Value = 1080, },
+									UseFrameFormatSettings = Input { Value = 1, },
+									LineSpacing = Input { Value = 0.63, },
+									SelectElement = Input { Value = 2, },
+									Select = Input { Value = 2, },
+									Enabled3 = Input { Value = 1, },
+									StyledText = Input { Value = "TEXT", },
+									Font = Input { Value = "Helvetica Neue", },
+									Style = Input { Value = "Condensed Black", },
+									Size = Input { Value = 0.2, },
+									VerticalJustificationNew = Input { Value = 3, },
+									HorizontalJustificationNew = Input { Value = 3, },
+									Softness3 = Input { Value = 1, },
+									SoftnessX3 = Input { Value = 20, },
+									SoftnessY3 = Input { Value = 20, },
+									Position3 = Input { Value = 1, },
+									Offset3 = Input { Value = { 0.032, -0.036 }, },
+									Rotation3 = Input { Value = 1, },
+									Shear3 = Input { Value = 1, },
+									Size3 = Input { Value = 1, },
+								},
+								ViewInfo = OperatorInfo { Pos = { 251.333, 50.7121 } },
+							}
+						}
+					},
+					[3] = {
+						Tools = ordered() {
+							Template = TextPlus {
+								CtrlWZoom = false,
+								CustomData = {
+								},
+								Inputs = {
+									GlobalOut = Input { Value = 43, },
+									Width = Input { Value = 1920, },
+									Height = Input { Value = 1080, },
+									UseFrameFormatSettings = Input { Value = 1, },
+									Center = Input { Value = { 0.5, 0.3 }, },
+									LineSpacing = Input { Value = 0.63, },
+									SelectElement = Input { Value = 2, },
+									Select = Input { Value = 2, },
+									Red1 = Input { Value = 0, },
+									Green1 = Input { Value = 0, },
+									Blue1 = Input { Value = 0, },
+									StyledText = Input { Value = "TEXT", },
+									Font = Input { Value = "Helvetica Neue", },
+									Style = Input { Value = "Condensed Black", },
+									Size = Input { Value = 0.13, },
+									VerticalJustificationNew = Input { Value = 3, },
+									HorizontalJustificationNew = Input { Value = 3, },
+									Softness3 = Input { Value = 1, },
+									SoftnessX3 = Input { Value = 20, },
+									SoftnessY3 = Input { Value = 20, },
+									Position3 = Input { Value = 1, },
+									Offset3 = Input { Value = { 0.032, -0.036 }, },
+									Rotation3 = Input { Value = 1, },
+									Shear3 = Input { Value = 1, },
+									Size3 = Input { Value = 1, },
+								},
+								ViewInfo = OperatorInfo { Pos = { 251.333, 50.7121 } },
+							}
+						}
+					},
+					[4] = {
+						Tools = ordered() {
+							Template = TextPlus {
+								CtrlWZoom = false,
+								CustomData = {
+								},
+								Inputs = {
+									GlobalOut = Input { Value = 43, },
+									Width = Input { Value = 1920, },
+									Height = Input { Value = 1080, },
+									UseFrameFormatSettings = Input { Value = 1, },
+									LineSpacing = Input { Value = 0.63, },
+									SelectElement = Input { Value = 2, },
+									Select = Input { Value = 2, },
+									Red1 = Input { Value = 0, },
+									Green1 = Input { Value = 0, },
+									Blue1 = Input { Value = 0, },
+									StyledText = Input { Value = "TEXT", },
+									Font = Input { Value = "Helvetica Neue", },
+									Style = Input { Value = "Condensed Black", },
+									Size = Input { Value = 0.2, },
+									VerticalJustificationNew = Input { Value = 3, },
+									HorizontalJustificationNew = Input { Value = 3, },
+									Softness3 = Input { Value = 1, },
+									SoftnessX3 = Input { Value = 20, },
+									SoftnessY3 = Input { Value = 20, },
+									Position3 = Input { Value = 1, },
+									Offset3 = Input { Value = { 0.032, -0.036 }, },
+									Rotation3 = Input { Value = 1, },
+									Shear3 = Input { Value = 1, },
+									Size3 = Input { Value = 1, },
+								},
+								ViewInfo = OperatorInfo { Pos = { 251.333, 50.7121 } },
+							}
+						}
+					},
+				}
+			},
+			Inputs = {
+				GlobalOut = Input { Value = 43, },
+				Width = Input { Value = 1920, },
+				Height = Input { Value = 1080, },
+				UseFrameFormatSettings = Input { Value = 1, },
+				Center = Input { Value = { 0.5, 0.3 }, },
+				LineSpacing = Input { Value = 0.63, },
+				SelectElement = Input { Value = 2, },
+				Select = Input { Value = 2, },
+				Enabled3 = Input { Value = 1, },
+				StyledText = Input { Value = "TEXT", },
+				Font = Input { Value = "Helvetica Neue", },
+				Style = Input { Value = "Condensed Black", },
+				Size = Input { Value = 0.13, },
+				VerticalJustificationNew = Input { Value = 3, },
+				HorizontalJustificationNew = Input { Value = 3, },
+				TabSpacing = Input { Value = 1, },
+				AdvancedFontControls = Input { Value = 1, },
+				Softness3 = Input { Value = 1, },
+				SoftnessX3 = Input { Value = 20, },
+				SoftnessY3 = Input { Value = 20, },
+				Position3 = Input { Value = 1, },
+				Offset3 = Input { Value = { 0.032, -0.036 }, },
+				Rotation3 = Input { Value = 1, },
+				Shear3 = Input { Value = 1, },
+				Size3 = Input { Value = 1, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 251.333, 50.7121 } },
+		}
+	}
+}

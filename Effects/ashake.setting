@@ -1,0 +1,74 @@
+{
+	Tools = ordered() {
+		ashake = MacroOperator {
+			Inputs = ordered() {
+				MainInput1 = InstanceInput {
+					SourceOp = "CameraShake1_1",
+					Source = "Source",
+				},
+				Input1 = InstanceInput {
+					SourceOp = "CameraShake1_1",
+					Source = "MotionScale",
+					Default = 0.25,
+				},
+				Input2 = InstanceInput {
+					SourceOp = "CameraShake1_1",
+					Source = "SpeedScale",
+					Default = 0.6,
+				},
+				Input3 = InstanceInput {
+					SourceOp = "CameraShake1_1",
+					Source = "MotionBlurAmt",
+					Default = 0,
+				},
+			},
+			Outputs = {
+				MainOutput1 = InstanceOutput {
+					SourceOp = "CameraShake1_1",
+					Source = "Output",
+				}
+			},
+			ViewInfo = GroupInfo { Pos = { 0, 0 } },
+			Tools = ordered() {
+				CameraShake1_1 = ofx.com.blackmagicdesign.resolvefx.CameraShake {
+					CtrlWZoom = false,
+					Inputs = {
+						MotionScale = Input { Value = 0.25, },
+						SpeedScale = Input { Value = 0.6, },
+						MotionBlurAmt = Input { Value = 0, },
+						ShakeLevelsGroup = Input { Value = 1, },
+						XAmpl = Input { Value = 0.100000001490116, },
+						YAmpl = Input { Value = 0.300000011920929, },
+						RAmpl = Input { Value = 0.100000001490116, },
+						XYFreq = Input { Value = 0.5, },
+						ZAmpl = Input { Value = 0, },
+						ZFreq = Input { Value = 0, },
+						zoomType = Input { Value = FuID { "ZOOM_OUTWARD" }, },
+						ShakeQualityGroup = Input { Value = 1, },
+						motionType = Input { Value = FuID { "MOTION_TYPE_SINE" }, },
+						XYPhase = Input { Value = 0.75, },
+						ShakeRand = Input { Value = 0.100000001490116, },
+						RandSpeed = Input { Value = 0.850000023841858, },
+						ShakePsLen = Input { Value = 0.5, },
+						ShakePsInt = Input { Value = 5, },
+						PauseRand = Input { Value = 0.200000002980232, },
+						RandSeed = Input { Value = 1, },
+						BlankingHandlingGroup = Input { Value = 1, },
+						BorderType = Input { Value = FuID { "BORDER_TYPE_CONSTANT" }, },
+						ZoomCrop = Input { Value = 0.0500000007450581, },
+						blendGroup = Input { Value = 0, },
+						blendIn = Input { Value = 1, },
+						blend = Input { Value = 0, },
+						ignoreContentShape = Input { Value = 0, },
+						legacyIsProcessRGBOnly = Input { Value = 0, },
+						IsNoTemporalFramesReqd = Input { Value = 0, },
+						refreshTrigger = Input { Value = 1, },
+						resolvefxVersion = Input { Value = "1.2", },
+					},
+					ViewInfo = OperatorInfo { Pos = { 348.667, 48.5758 } },
+				}
+			},
+		}
+	},
+	ActiveTool = "ashake"
+}
