@@ -390,6 +390,7 @@ controlTimecode := = | Num+=
 sessionPrinterLightsMagQuarterMinus := Ctrl+Num+0
 FusionWidget.fuHotkey_GLPreview_Playback_Seek{frames = 1} := Right
 FusionWidget.fuHotkey_GLView_Viewer_Scale_Rel{ scale=1·4142135623730950488016887242097 } := Num++ | =
+EditTimeline.editDelete := Shift+Backspace | S
 controlPlayAroundToPlayAroundIn := Alt+Space
 fairlightStatusMonitor := 
 FusionWidget.fuHotkey_FuFrame_Comp_Abort := Esc
